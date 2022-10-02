@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { charData } from "./charData";
+import './App.css'
 
 const Cards = (props) => {
   const [clickedCards, setClickedCards] = useState([]);
@@ -37,11 +38,9 @@ const Cards = (props) => {
       style={{
         margin: "170px auto auto ",
         width: "90%",
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "center",
         cursor: "pointer",
       }}
+      className="imga"
     >
       {randomCards.map((item) => {
         return (
@@ -51,7 +50,7 @@ const Cards = (props) => {
               console.log(clickedCards);
             }}
             style={{
-              margin: "10px",
+              margin: "5px",
               borderRadius: "5px",
               background: "white",
             }}
@@ -60,7 +59,7 @@ const Cards = (props) => {
             className="card"
           >
             <img
-              style={{ width: "280px", borderRadius: "5px 5px 0 0" }}
+              style={{ width: "200px", borderRadius: "5px 5px 0 0" }}
               alt={item.text}
               src={item.img}
             ></img>
