@@ -34,13 +34,4 @@ const App = () => {
 
 export default App;
 
-/*
--point logic ()
--maxscore const (x)
--scoreboard state (x)
--bestscore state (x)
--cards object (img, text) (x)
--cards component (x)
--random cards render function onMount (x)
--functional components and hooks (x)
-*/
+

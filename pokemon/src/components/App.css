@@ -45,6 +45,38 @@ body {
   justify-content: center;
   
 }
-h1,p{
+p{
   color: black;
+  font-weight: bolder;
+  
+}
+h1{
+  color:navy;
+}
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  background-image: url('pokemon logo.png');
+  background-size: 500px 170px;
+  background-position-x:center;
+  background-position-y: -1px;
+   background-repeat:no-repeat;
+
+}
+.score{
+
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  width: 180px;
+  height: 150px;
+  border-radius: 5px;
+
 }

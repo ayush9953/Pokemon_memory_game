@@ -50,7 +50,7 @@ const Cards = (props) => {
               console.log(clickedCards);
             }}
             style={{
-              margin: "5px",
+              margin: "3px",
               borderRadius: "5px",
               background: "white",
             }}
@@ -59,7 +59,7 @@ const Cards = (props) => {
             className="card"
           >
             <img
-              style={{ width: "200px", borderRadius: "5px 5px 0 0" }}
+              style={{ width: "200px", borderRadius: "5px 5px 0 0", }}
               alt={item.text}
               src={item.img}
             ></img>
